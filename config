@@ -1,0 +1,89 @@
+/*=================================================================*\
+/* By: 			|	Tobi  Development 							|
+/* FiveM: 		|	https://forum.cfx.re/u/Tobi  Development		|
+/* Discord: 	|	https://discord.gg/mTejwrkUkP 		|
+/*=================================================================*/
+/* If you have any problems you can contact us via discord. <3     */
+
+
+var staff_team = [
+
+	{
+		"name":"Tobi  Development",
+		"image":"https://cdn.discordapp.com/attachments/1448335196041642099/1481648734965071982/content.png",
+		"rank":"Inhaber"
+	},
+	{
+		"name":"Tobi  Development",
+		"image":"https://cdn.discordapp.com/attachments/1448335196041642099/1481648734965071982/content.png",
+		"rank":"Inhaber"
+	}
+
+]
+
+
+
+
+// Staff Settings
+const showStaffTeam = true
+const showTipList = true
+
+
+// orange
+// red
+// blue
+// green
+// pink
+// purple
+const theme = "blue"
+
+// ==== WINTER UPDATE !! ==== \\
+const enableWinterUpdate = false
+// ==== WINTER UPDATE !! ==== \\
+
+
+// Text settings
+const name = "<strong>Tobias </strong>Development"
+const underName = "ROLE<b>PLAY</b>"
+const desc = "Herzlich Willkommen zur�ck"
+
+
+// Social media
+const discord = "https://discord.gg/mTejwrkUkP"  // If = "" then icon will not show up on screen
+const instagram = ""	// https://example.com
+const youtube = "" 		// https://example.com
+const twitter = "" 		// https://example.com
+const tiktok = ""  		// https://example.com
+const facebook = ""		// https://example.com
+const twitch = "" 		// https://example.com
+const github = "" 		// https://example.com
+
+
+// Video Settings
+const videoBlur = 0
+var videoOpacity = 0.3
+
+
+// Example link: https://www.youtube.com/watch?v=aAXLhvrfaT8&list=RDaAXLhvrfaT8&start_radio=1
+const youtubeVideo = "aAXLhvrfaT8&list=RDaAXLhvrfaT8&start_radio=1"
+const showYoutubeVideo = false
+
+// Local Video
+const enableLocalVideo = false
+
+// Local audio
+const localAudio = false
+
+
+
+// HELP //
+
+//-- YOUTBE
+//-- LOCAL AUDIO
+// if localAudio is true, then loading will load "audio.mp3" file and play it except youtube audio.
+// if localAudio is false, then loading will load youtube audio.
+
+//-- LOCAL VIDEO
+// if enableLocalVideo is true, then loading will load "video.webm" file and play it except youtube video.
+// If localVideo is enabled, showYoutubeVideo is automatically disabled.
+// You can only import a video from either YouTube or local. Local vide
