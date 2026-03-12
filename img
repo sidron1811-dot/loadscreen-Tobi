@@ -1,0 +1,13 @@
+
+for img in blue green orange pink purple red winter; do
+  base64 -w 0 /mnt/user-data/uploads/${img}.jpg > /home/claude/b64_${img}.txt
+  echo "${img}: $(wc -c < /home/claude/b64_${img}.txt) chars"
+done
+
+blue: 673220 chars
+green: 784488 chars
+orange: 778600 chars
+pink: 848432 chars
+purple: 592216 chars
+red: 616852 chars
+winter: 356296 chars
